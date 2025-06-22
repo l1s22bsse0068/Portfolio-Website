@@ -1,10 +1,11 @@
 {
+  "extends": "stylelint-config-standard",
   "rules": {
-    "declaration-block-no-duplicate-properties": true,
-    "no-duplicate-selectors": true,
     "property-case": "lower",
     "value-keyword-case": "lower",
     "selector-type-case": "lower",
+    "declaration-block-no-duplicate-properties": true,
+    "no-duplicate-selectors": true,
     "block-no-empty": true
   }
 }
